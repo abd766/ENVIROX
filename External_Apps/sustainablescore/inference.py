@@ -70,5 +70,4 @@ def run_inference(prompt):
         except json.JSONDecodeError:
             return "Error: Could not decode JSON from response."
     else:
-        return "Error: Unable to get a valid response."
-
+        return "Error:."
